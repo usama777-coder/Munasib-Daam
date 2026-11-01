@@ -3,8 +3,8 @@
 Estimates the asking price of houses, flats and portions in 9 Pakistani cities, explains what drives the price,
 and flags listings priced far from comparable ones. Built on 37,042 cleaned listings from May 2024.
 
-- **Live app:** _TODO: https://munasib-daam.streamlit.app/
-- **Screenshot:** _TODO: docs/img1.png  docs/img2.png
+- **Live app:**: https://munasib-daam.streamlit.app/
+- **Screenshot:**: docs/img1.png  docs/img2.png
 
 ## Results
 
