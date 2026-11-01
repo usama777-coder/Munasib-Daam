@@ -42,6 +42,9 @@ footer { visibility: hidden; }
 .stButton > button { border:2px solid var(--primary); border-radius:14px; font-weight:600; transition:all .15s ease; }
 .stButton > button:hover { background:var(--primary); color:#fff; border-color:var(--primary); }
 [data-testid="stExpander"] { border:1px solid var(--line); border-radius:14px; background:rgba(255,255,255,.55); }
+div[data-baseweb="select"] > div, div[data-baseweb="base-input"], div[data-baseweb="input"] {
+    background-color:rgba(128,128,128,.07) !important; background-color:color-mix(in srgb, var(--primary) 8%, white) !important;
+    border-color:color-mix(in srgb, var(--primary) 30%, transparent) !important; border-radius:10px !important; }
 .hero { position:relative; border-radius:18px; overflow:hidden; margin:0;
         background: radial-gradient(circle, rgba(255,255,255,.17) 2px, transparent 2.6px) 0 0/22px 22px,
                     linear-gradient(120deg, var(--hero-a), var(--hero-b)); }
