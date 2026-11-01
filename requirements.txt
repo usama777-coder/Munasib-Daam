@@ -1,0 +1,15 @@
+pandas
+numpy
+scikit-learn>=1.2
+xgboost
+lightgbm
+optuna
+shap
+streamlit
+streamlit-folium
+folium
+requests
+beautifulsoup4
+joblib
+matplotlib
+pytest

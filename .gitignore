@@ -1,0 +1,15 @@
+data/raw/*
+data/interim/*
+data/processed/*
+!data/*/.gitkeep
+# the trained model (5 MB) IS committed so the app can be deployed
+# these two files copy individual listings, so they are not published by default
+reports/scored_listings.csv
+reports/undervalued_listings.csv
+__pycache__/
+.venv/
+*.pyc
+.pytest_cache/
+/*.csv
+reports/cleaning_report.json
+reports/price_trends.csv
