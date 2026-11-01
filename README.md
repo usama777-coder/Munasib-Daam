@@ -55,7 +55,7 @@ The raw file had 155,021 listings. Cleaning is in `src/hpk/clean.py`; the full c
 
 ```powershell
 python -m venv .venv ; .venv\Scripts\activate
-pip install -r requirements.txt
+pip install -r requirements-dev.txt     # training and tests; the deployed app only needs requirements.txt
 $env:PYTHONPATH = "src"
 pytest -q                                    # 79 tests
 

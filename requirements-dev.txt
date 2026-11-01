@@ -1,0 +1,8 @@
+# Everything needed to clean data, train, tune and test. Installs the pinned runtime packages first.
+-r requirements.txt
+optuna
+lightgbm
+requests
+beautifulsoup4
+matplotlib
+pytest
