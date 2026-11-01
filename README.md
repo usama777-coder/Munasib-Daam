@@ -3,8 +3,8 @@
 Estimates the asking price of houses, flats and portions in 9 Pakistani cities, explains what drives the price,
 and flags listings priced far from comparable ones. Built on 37,042 cleaned listings from May 2024.
 
-- **Live app:** _TODO: add your Streamlit link_
-- **Screenshot:** _TODO: add `docs/app.png`_
+- **Live app:** _TODO: https://munasib-daam.streamlit.app/
+- **Screenshot:** _TODO: docs/img1.png  docs/img2.png
 
 ## Results
 
@@ -70,7 +70,7 @@ The scripts `python -m hpk.db` and `sql/analysis.sql` load the clean data into S
 
 ## Data
 
-- **Source:** _TODO: Kaggle dataset name, author, link and license for `zameen.csv`_.
+- **Source:**: Kaggle zameen.csv, Azhar Saleem, https://www.kaggle.com/datasets/azharsaleem/explore-pakistans-property-landscape-zameen-com and license for `zameen.csv`_.  Apache 2.0
 - Public listings from Zameen.com collected in one week (20 to 26 May 2024). I did not scrape the data myself.
 - Raw data is not in this repository. Place the file at `data/raw/zameen.csv`.
 
